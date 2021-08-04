@@ -1,0 +1,16 @@
+version: '3'
+services:
+
+  StartTree:
+    image: nginx
+    volumes:
+      - $HOME/.cache/StartTree/styles/colors.css:/usr/share/nginx/html/styles/colors.css # This needs to be changed depending on theme
+      - $HOME/.cache/StartTree/index.html:/usr/share/nginx/html/index.html
+      - $HOME/.cache/StartTree/styles/style.css:/usr/share/nginx/html/styles/style.css
+      - $HOME/.cache/StartTree/styles/Hack.ttf:/usr/share/nginx/html/styles/Hack.ttf
+      - $HOME/.cache/StartTree/default.conf:/etc/nginx/conf.d/default.conf # modified conf to disable page caching :)
+    ports:
+    - "9876:80"
+    environment:
+    - NGINX_PORT=80
+    restart: unless-stopped
