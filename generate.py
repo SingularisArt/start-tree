@@ -11,7 +11,7 @@ home = expanduser("~")
 
 # install script will fill this in
 # replace line
-repo_dir = "/home/hashedupforyou101/Singularis/third-party-tools/start-tree"
+repo_dir = "/home/hashem/Singularis/third-party-tools/start-tree"
 
 # get config path
 config_dir = home + '/.config/StartTree'
