@@ -11,7 +11,7 @@ home = expanduser("~")
 
 # install script will fill this in
 # replace line
-repo_dir = "/home/singularis/.local/share/Singularis/third-party-tools/start-tree"
+repo_dir = "/home/singularis/Documents/start-tree"
 
 # get config path
 config_dir = home + "/.config/StartTree"
