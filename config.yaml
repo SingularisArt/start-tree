@@ -1,34 +1,25 @@
-font_size: 100
+font_size: 50
 theme: pywal
 
 tree_1:
   General:
-    GitHub: 'https://www.github.com/'
-    Gmail: 'https://mail.google.com/'
-    YouTube: 'https://youtube.com'
-    Khan Academy: 'khanacademy.org'
-    Memrise: 'app.memrise.com'
-    Medium: 'medium.com'
+    GitHub: "https://www.github.com"
+    Gmail: "https://mail.google.com"
+    YouTube: "https://youtube.com"
+    Khan Academy: "khanacademy.org"
   Reddit:
-    Front Page: 'https://www.reddit.com'
-    Profile: 'https://www.reddit.com/user/Desperate_Party_9259'
-    UnixPorn: 'https://www.reddit.com/r/unixporn'
+    Front Page: "https://www.reddit.com"
+    Profile: "https://www.reddit.com/user/Desperate_Party_9259"
+    UnixPorn: "https://www.reddit.com/r/unixporn"
+    VimPorn: "https://www.reddit.com/r/vimporn"
 
 tree_2:
   School:
-    Could: ''
-    Canvas: ''
-    Courses: ''
-    Grades: ''
-    Email: ''
+    D2L: "https://online.d2l.com"
+    Grades: "https://my.pcc.edu"
+    School Website: "https://pcc.edu"
 
 tree_3:
-  Best Dotfiles Repos:
-    My Dotfiles: 'https://github.com/SingularisArt/Singularis'
-    Greg Hurrell Dotfiles: 'https://github.com/wincent/wincent'
-    Luke Smith Dotfiles: 'https://github.com/LukeSmithxyz/voidrice'
-    Nick Janetakis Dotfiles: 'https://github.com/nickjj/dotfiles'
-    Gideon Wolfe Dotfiles: 'https://github.com/GideonWolfe/dots'
-  Best NeoVim Configs:
-    My NeoVim Config: 'https://github.com/SingularisArt/Death.NeoVim'
-    Gideon Wolfe Dotfiles: 'https://github.com/GideonWolfe/vim.repear'
+  Google:
+    Drive: "https://drive.google.com"
+    Calendar: "https://calendar.google.com"
