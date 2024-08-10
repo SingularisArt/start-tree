@@ -11,7 +11,7 @@ home = expanduser("~")
 
 # install script will fill this in
 # replace line
-repo_dir = "/home/hashem/Documents/start-tree"
+repo_dir = "/home/singularisart/Documents/start-tree"
 
 # get config path
 config_dir = home + "/.config/StartTree"
